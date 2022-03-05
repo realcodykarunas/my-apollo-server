@@ -1,5 +1,5 @@
 {
-  "name": "apollo-server",
+  "name": "my-backend",
   "description": "",
   "license": "MIT",
   "main": "index.js",
@@ -9,7 +9,10 @@
   "keywords": [],
   "dependencies": {
     "apollo-server": "^3.3.0",
-    "graphql": "^15.5.3"
+    "graphql": "^15.5.3",
+    "sequelize": "6.17.0",
+    "sequelize-cli": "6.4.1",
+    "sqlite3": "5.0.2"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
