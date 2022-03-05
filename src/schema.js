@@ -8,7 +8,7 @@ const typeDefs = gql`
   }
 
   type Query {
-    allLinks: [Link!]!
+    allLink: [Link!]!
     link(id: Int!): Link
   }
 
