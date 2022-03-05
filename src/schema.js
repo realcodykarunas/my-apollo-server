@@ -8,11 +8,10 @@ const typeDefs = gql`
   }
 
   type Query {
-    allLink: [Link!]!
-    link(id: Int!): Link
+    allLinks: [Link!]!
   }
 
-  type Mutation {
+  type Mutations {
     createLink(url: String!, slug: String!): Link!
   }
 `;
