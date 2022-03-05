@@ -1,13 +1,10 @@
 const resolvers = {
   Query: {
-    async allRecipes(root, args, { models }) {
-      return models.Recipe.findAll();
+    async allLinks(root, args, { models }) {
+      return models.Link.findAll();
     },
-    async recipe(root, { id }, { models }) {
-      return models.Recipe.findByPk(id);
-    },
-    async allBooks(root, { id }, { models }) {
-      return models.Book.findAll(id);
+    async link(root, { id }, { models }) {
+      return models.Link.findByPk(id);
     }
   }
 };
